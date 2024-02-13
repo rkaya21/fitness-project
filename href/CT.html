@@ -6,9 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
     <title>Chest/Triceps Workout</title>
+
+    <style>
+        #backButton {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            padding: 10px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body>
+
+    <button id="backButton" onclick="goBack()">Ana Sayfaya Dön</button>
 
     <table>
         <thead>
@@ -52,6 +67,12 @@
             </tr>
         </tbody>
     </table>
+
+    <script>
+        function goBack() {
+            window.location.href= "index.html";
+        }
+    </script>
 
 </body>
 
